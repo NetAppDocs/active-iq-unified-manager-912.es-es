@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel='stylesheet' href='/es-es/active-iq-unified-manager-912/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -214,7 +215,7 @@
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/issues/new?body=Page%3A%20[Añadir clústeres](https://docs.netapp.com/es-es/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/es-es/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />Solicitar cambios en el documento</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/storage-mgmt/task_add_clusters.adoc" class="page-nav-contribute-link" role="button"><img src="/es-es/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />Editar en GitHub</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/es-es/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />Guía del colaborador</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912.es-es/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/es-es/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html&page-title=Añadir clústeres" class="page-nav-contribute-link" role="button"><img src="/es-es/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />Solicitar cambios en el documento</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/storage-mgmt/task_add_clusters.adoc" class="page-nav-contribute-link" role="button"><img src="/es-es/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />Editar en GitHub</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/es-es/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />Guía del colaborador</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">EN ESTA PÁGINA</div>
@@ -307,8 +308,8 @@
           data-did-you-mean="Buscar {suggestion}."
           data-no-results-found-did-you-mean="No se encontraron resultados para {query}. ¿Quiso decir {suggestion}?"
           data-results-found="{hitCount} resultados encontrados"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="Lo sentimos, pero se ha producido un error al recuperar los resultados. Por favor, inténtelo de nuevo."
+          data-error-reset="Restablecer búsqueda"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -349,6 +350,8 @@
           <a href="https://docs.netapp.com/de-de/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -11444,7 +11447,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-18 18:27:40 +0000">05/18/2023</time>
+    <time datetime="2023-05-23 20:26:16 +0000">05/23/2023</time>
     
   
 
@@ -11519,11 +11522,11 @@
 </table>
 </div>
 <div class="paragraph">
-<p><strong>Certificados de cliente</strong>: Se utiliza durante la autenticación de mensajes EMS recibidos de ONTAP. Este certificado es propiedad de ONTAP y es obligatorio cuando se añade un clúster de ONTAP a Unified Manager. No puede agregar un clúster a Unified Manager con un certificado caducado y si el certificado de cliente ya ha caducado, debe volver a regenerarlo antes de agregar el clúster. Sin embargo, si este certificado caduca en un clúster que ya se ha añadido y está siendo utilizado por Unified Manager, la mensajería de EMS sigue funcionando con el certificado caducado. Para obtener información acerca de la generación de certificados, consulte el artículo de la base de conocimientos (KB) https://["Cómo renovar un certificado autofirmado de ONTAP en la interfaz de usuario de System Manager"^].</p>
+<p><strong>Certificados de cliente</strong>: Se utiliza durante la autenticación de mensajes EMS recibidos de ONTAP. Este certificado es propiedad de ONTAP y es obligatorio cuando se añade un clúster de ONTAP a Unified Manager. No puede agregar un clúster a Unified Manager con un certificado caducado y si el certificado de cliente ya ha caducado, debe volver a regenerarlo antes de agregar el clúster. Sin embargo, si este certificado caduca en un clúster que ya se ha añadido y está siendo utilizado por Unified Manager, la mensajería de EMS sigue funcionando con el certificado caducado. Para obtener información acerca de la generación de certificados, consulte el artículo de la base de conocimientos (KB) <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9" target="_blank" rel="noopener">"Cómo renovar un certificado autofirmado de ONTAP en la interfaz de usuario de System Manager"</a>.</p>
 </div>
 </li>
 <li>
-<p>Una única instancia de Unified Manager puede admitir un número determinado de nodos. Si necesita supervisar un entorno que supere el número de nodos admitidos, debe instalar una instancia adicional de Unified Manager para supervisar algunos de los clústeres. Para ver la lista del número de nodos admitidos, consulte https://["Guía de prácticas recomendadas de Unified Manager"^].</p>
+<p>Una única instancia de Unified Manager puede admitir un número determinado de nodos. Si necesita supervisar un entorno que supere el número de nodos admitidos, debe instalar una instancia adicional de Unified Manager para supervisar algunos de los clústeres. Para ver la lista del número de nodos admitidos, consulte <a href="https://www.netapp.com/media/13504-tr4621.pdf" target="_blank" rel="noopener">"Guía de prácticas recomendadas de Unified Manager"</a>.</p>
 </li>
 </ul>
 </div>
