@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: Documentación de Active IQ Unified Manager
+  summary: Documentación para Active IQ Unified Manager 9,12.
+  keywords: active iq unified manager documentation, linux, windows, configure, install,
+    vmware vsphere systems
   lead: Active IQ Unified Manager (Unified Manager y anteriormente OnCommand Unified
     Manager) le permite supervisar y gestionar el estado y el rendimiento de sus sistemas
     de almacenamiento de ONTAP desde una única interfaz. Esta biblioteca de documentación
@@ -105,5 +109,7 @@ indexpage:
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
     - title: Blogs de Unified Manager
       url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
+    - title: Documentación para Active IQ Unified Manager 9.11
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager-911/
     - title: Documentación de Active IQ Unified Manager 9.9 o anterior
       url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
